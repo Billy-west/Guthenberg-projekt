@@ -1,0 +1,70 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+     font-weight: lighter;
+}
+
+header{
+    background-color: rgb(231, 231, 231);
+    width: 99%;
+    margin-inline: auto;
+    border-radius: 10px;
+    
+}
+.footer{
+
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+
+    font-size: 1.3rem
+}
+
+
+
+a{
+    display: inline-block;
+    padding: 0.4rem;
+    background-color: rgb( 100, 100, 100);
+    color: #ffffff;
+    text-decoration: none; /* Removes the underline */
+    border-radius: 4px;   
+    transition: background-color 0.2s ease;
+    text-align: center;
+} 
+
+a:hover{
+    background-color: rgb(200, 200, 200);
+    border-radius: 4px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    list-style: none;
+    padding: 0.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.Guthenberg{
+    font-size: 95px;
+    text-align: center;
+}
+
+.rubrikstil{
+    text-align: center;
+
+}
+
+.container{
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+
+}
+
