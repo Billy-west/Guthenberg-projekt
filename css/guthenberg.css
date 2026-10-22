@@ -43,7 +43,7 @@ a:hover{
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 1rem;
     list-style: none;
     padding: 0.5rem;
     text-align: center;
